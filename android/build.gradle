@@ -32,3 +32,11 @@ android {
         disable 'InvalidPackage'
     }
 }
+repositories {
+  flatDir {
+      dirs 'libs'
+  }
+}
+dependencies {
+  implementation (name:'GDTSDK.unionNormal.4.191.1061', ext:'aar')
+}
