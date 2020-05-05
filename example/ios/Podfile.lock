@@ -1,0 +1,31 @@
+PODS:
+  - advplugin (0.0.1):
+    - Flutter
+    - GDTMobSDK (~> 4.11.7)
+  - Flutter (1.0.0)
+  - GDTMobSDK (4.11.7):
+    - GDTMobSDK/GDTMobSDK (= 4.11.7)
+  - GDTMobSDK/GDTMobSDK (4.11.7)
+
+DEPENDENCIES:
+  - advplugin (from `.symlinks/plugins/advplugin/ios`)
+  - Flutter (from `Flutter`)
+
+SPEC REPOS:
+  trunk:
+    - GDTMobSDK
+
+EXTERNAL SOURCES:
+  advplugin:
+    :path: ".symlinks/plugins/advplugin/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  advplugin: d4caf48fed63b9b68b078b5903feb1fc0025f0f6
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  GDTMobSDK: edb52f3721c8c62b790b255833e423a00a3d2172
+
+PODFILE CHECKSUM: 3dbe063e9c90a5d7c9e4e76e70a821b9e2c1d271
+
+COCOAPODS: 1.9.1
